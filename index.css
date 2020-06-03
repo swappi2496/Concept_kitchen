@@ -1,0 +1,518 @@
+.nav-item{
+    margin-left:25%;
+    
+    
+}
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 5px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10%;
+  }
+  .btn-b-color {
+    border-color: #EC257A;
+    color: black;
+  }
+  .btn-bn-color {
+    border-color: #414141;
+    color: black;
+  }
+  
+  p.test2 {
+    writing-mode: vertical-rl;
+    padding-top: 50%;
+    text-orientation: initial;
+ }
+   .vl {
+        border-left: 2px solid #EC257A;
+        height: 250px;
+        margin-left: 10%;
+ }
+ .centered {
+    position: absolute;
+    top: 30%;
+    left:30%;
+    transform: translate(-20%, -20%);
+    color: #FFFFFF;
+  }
+  .leftside, .rightside{
+      height: 95%;
+      width: 96%;
+  }
+  .leftside1, .rightside1{
+    height: 100%;
+    width: 100%;
+}
+
+  .leftside{
+      background-color: #FFFFFF;
+  }
+  .rightside{
+    background-color: #414141;
+}
+  .leftside1{
+      background-color: #414141;
+  }
+  .rightside1{
+      background: url("./Images/Rectangle 23.png"),rgb(190, 22, 95);
+      background-blend-mode: multiply;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      
+
+      
+  }
+  .bg-image{
+    background-image: image("./Images/map.png");
+    height: 100%;
+    width: 100%;
+  }
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    text-transform: uppercase;
+    font: Medium 21px/25px Montserrat;
+    color: #414141;
+  }
+  
+  .div1 {
+    color: #EC257A;
+    width: 430px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 0%;
+  }
+  .text1{
+    margin-left: 31%;
+    margin-right: auto;
+    font-size: 60px;
+    letter-spacing: 0px;
+    color: #414141;
+    text-transform: uppercase;
+    
+
+  }
+  .text4 {
+    text-align: left;
+  font: Bold 15px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  padding-top: 10px;
+  }
+  .text5{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8a8a8a;
+  }
+  .text6{
+    font-family: Montserrat;
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8a8a8a;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;
+  }
+  ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:0%;
+  }
+  .ghost-button {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color:#EC257A;
+    border: 1px solid#414141;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+  
+  }
+  .ghost-button:hover{
+    color:white;
+    background-color: #EC257A;
+  }
+
+  
+  /* Button CSS */
+
+  .button-arrow {
+    position: absolute;
+    
+    width: 238px;
+    height: 38.5px;
+    background: transparent;
+    border: 1px solid #414141 ;
+    color:#414141;
+}
+
+.button-arrow:hover {
+    position: absolute;
+    cursor: pointer;
+    width: 238px;
+    height: 38.5px;
+    background: #EC257A;
+    border: 1px solid #EC257A ;
+    color: #FFFFFF;
+    
+}
+
+.button-arrow:before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: #414141;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    right: -50px;
+    transition: all 0.3s ease;
+    
+}
+
+.button-arrow:hover:before {
+    right: -65px;
+    width: 55px;
+    background: #EC257A;
+    
+}
+
+.button-arrow:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent #414141;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    right: -55px;
+    transition: all 0.3s ease;
+}
+
+.button-arrow:hover:after {
+    right: 34px;
+    right: -70px;
+    border-color: transparent transparent transparent #EC257A;
+    
+}
+
+/*----------------*/
+
+
+/* arrow-button2 */
+
+.button-arrow1 {
+    position: absolute;
+    
+    width: 238px;
+    height: 38.5px;
+    background: transparent;
+    border: 1px solid white ;
+    color:#FFFFFF;
+}
+
+.button-arrow1:hover {
+    position: absolute;
+    cursor: pointer;
+    width: 238px;
+    height: 38.5px;
+    background: #EC257A;
+    border: 1px solid #EC257A ;
+    color: #FFFFFF;
+    
+}
+
+.button-arrow1:before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    right: -50px;
+    transition: all 0.3s ease;
+    
+}
+
+.button-arrow1:hover:before {
+    right: -65px;
+    width: 55px;
+    background: #EC257A;
+    
+}
+
+.button-arrow1:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent #FFFFFF;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    right: -55px;
+    transition: all 0.3s ease;
+}
+
+.button-arrow1:hover:after {
+    right: 34px;
+    right: -70px;
+    border-color: transparent transparent transparent #EC257A;
+    
+}
+
+/* --------------EO 2nd arr-btn-------------------- */
+
+  .bg {
+    /* The image used */
+    background-image: url("./Images/Group 1.png");
+  
+    /* Full height */
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img1{
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 10%;
+    margin-top: -10%;
+}
+.interactive-image {
+    width: 1000px;
+    height: 500px;
+    background-image: url('./Images/naomi-hebert-MP0bgaS_d1c-unsplash.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.interactive-image .hotspot{
+    color: #e6005c;
+}
+
+
+.dropdown-menu:hover{
+  transform: scale(1.1);
+  
+}
+/* .dropdown:hover .dropdown-menu{
+    display: inline;
+    
+ }
+ .dropdown:hover{
+     transform: scale(1.1);
+ } */
+.content-item {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid #eee;
+    height: 100px;
+    margin: 20px 10px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+}
+.content-item:first-child {
+    margin-left: 20px;
+}
+.content-item .overlay {
+    border-bottom: 800px solid rgba(0, 0, 0, 0.438);
+    /* border-bottom: 800px solid red; */
+    border-right: 800px solid transparent;
+    bottom: 0;
+    height: 0;
+    opacity: .95;
+    position: absolute;
+    left: 0;
+    text-indent: -9999px;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    width: 0;
+}
+.content-item:hover .overlay {
+    border-bottom: 40px solid rgba(0, 0, 0, 0.438);
+    border-right: 60px solid transparent;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.content-item .corner-overlay-content {
+    bottom: 15px;
+    color: #333;
+    position: absolute;
+    right: 15px;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.content-item:hover .corner-overlay-content {
+    opacity: 0;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.content-item .overlay-content {
+    bottom: 0;
+    color: #333;
+    left: 0;
+    opacity: 0;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.content-item .overlay-content h2 {
+    border-bottom: 1px solid #333;
+    padding: 0 0 12px;
+}
+.content-item:hover .overlay-content {
+    opacity: 1;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -moz-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+.box1 {
+    height: 60px;
+    -webkit-backdrop-filter: blur(4px);
+     backdrop-filter: blur(8px);
+    box-shadow: 0 2.5px 6.5px 0 rgba(0, 0, 0, 0.65);
+    
+    line-height: 50px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    
+    
+    
+}
+.text7{
+    font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: .5px; */
+  letter-spacing: normal;
+  text-align: center;
+  padding:0.5%;
+  color: #ffffff;
+}
+.stat{
+    background: #414141;
+    /* padding-top: 10px; */
+    /* padding-bottom: 43px; */
+    color: white;
+    background-attachment: fixed;
+    margin-top:-13%;
+    height: 200px;
+    width: 730px;
+    color: #ffffff;
+    margin-left: 40%;
+    opacity: .8;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.stat-items h2{
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.stat-items p{
+    font-weight: bold;
+    line-height: .1;
+}
+.p2{
+    font-family: Montserrat;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  padding-top: 3px;
+  
+  text-align: left;
+  color: #ffffff;
+}
+.img3{
+    width: 16.5px;
+    height: 44px;
+    object-fit: contain;
+    font-family: Domino;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: -0.36px;
+    text-align: left;
+    margin-left:0%;
+    margin-right:0%;
+    color: var(--cerise);
+}
+.text10{
+    font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  
+}
